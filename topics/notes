@@ -62,5 +62,45 @@ a = ["banana","apple","cherry"]
 print(a[1])
 
 
+#change item values
+a = ["ravi", "raju", "giri", "vamsi"]
+a[1] = "khan"
+print(a)
 
-        
+
+#insert the value
+a = ["ravi", "raju", "das", "vamsi"]
+a.insert(2,"khan")
+print(a)
+
+
+#append
+a = ["das", "giri", "vamsi", "teja"]
+a.append("krishna")
+print(a)
+
+#Extend values
+a = [1,2,3,4,5,6]
+b = [7,8,9,10]
+a.extend(b)
+print(a)
+
+
+#remove
+a = ["raju", "ravi", "das", "vamsi"]
+a.remove("ravi")
+print(a) 
+
+
+#Git Commands
+# git clone repository link
+#git init------>to install
+#git status------>to check the status of a folder
+#git add filename------> to add the file to 
+#--------->check the status
+#git commit _m "about" filename------> commit the file 
+#git config --global user.email"xyz@gmail.com" 
+#git config --global user.name"giri" 
+#git commit
+#check git status
+#git push origin main -----> to push the file to repository
