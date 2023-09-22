@@ -1,0 +1,5 @@
+a = [12,74,32,3,31,23]
+b = a.copy()
+print(b)
+print(id(a))
+print(id(b))
