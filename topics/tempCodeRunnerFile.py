@@ -1,6 +1,6 @@
-list_1 = int(input())
-list_2 =[]
-for i in range(1,list_1+1) :
-    if (i%2 == 0):
-        list_2.append(i)   
+list_1 = input()
+list_2 = []
+for i in list_1:
+    if i not in list_2:
+        list_2.append(i)
 print(list_2)

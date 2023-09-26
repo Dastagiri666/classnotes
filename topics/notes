@@ -45,6 +45,11 @@ for i in range(1,a):
 
 
 #LIST
+#
+#
+#
+
+
 a = ["das","vamsi","giri"]
 print(a)
 
@@ -90,6 +95,23 @@ print(a)
 a = ["raju", "ravi", "das", "vamsi"]
 a.remove("ravi")
 print(a) 
+
+
+#aliasing
+a = [12,74,32,3,31,23]
+b = a
+print(b)
+print(id(a))
+print(id(b))
+
+#cloning
+a = [12,74,32,3,31,23]
+b = a.copy()
+print(b)
+print(id(a))
+print(id(b))
+
+
 
 
 #Git Commands
