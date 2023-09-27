@@ -126,5 +126,3 @@ print(id(b))
 #git commit
 #check git status
 #git push origin main -----> to push the file to repository
-
-
