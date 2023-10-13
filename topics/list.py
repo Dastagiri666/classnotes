@@ -3,7 +3,7 @@
 
 
 # create a list
-list_1 = (input().split())
+list_1 = input().split()
 print(list_1)
 
 #finding even numbers by using append
@@ -83,7 +83,7 @@ print(id(list_1))
 print(id(list_2))
 
 
-# asling method
+# aliasing method
 list_1 = input().split()
 list_2 = list_1
 print(id(list_1))

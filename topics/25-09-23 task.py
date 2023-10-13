@@ -111,7 +111,7 @@ for i in list_1:
     print(i,end = "")
 
 #10.Write a Python program to remove duplicates from a list
-list_1 = input()
+list_1 =list(input().split())
 list_2 = []
 for i in list_1:
     if i not in list_2:
