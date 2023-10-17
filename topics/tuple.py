@@ -4,19 +4,19 @@
 #3 max and min
 #4 packing and unpacking
 
-#1 indexing and slicing
+#1 indexing and slicing    
 x = input().split()
 y = list(x)
 print(tuple(y[0:2]))
 
 #2 length
 x = input().split()
-x[1] = "teja"
+len(x)
 y = tuple(x)
 print(y)
 
 x = tuple(input().split())
-print(x)
+print(len(x))
 
 #3 max and min
 x = tuple(input().split())

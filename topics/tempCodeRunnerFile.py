@@ -1,5 +1,7 @@
-dict_1 = {'a': 100, 'b': 200, 'c':300}
-dict_2 = {'d': 300, 'e': 200, 'f':400}
-dict_3 = dict_1.copy()
-dict_3.update(dict_2)
-print(dict_3)
+def recursive_function(x):
+   if x == 1:
+      return 1
+   else:
+      return x*recursive_function(x-1)
+num = 4
+print(recursive_function(num))
