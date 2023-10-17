@@ -108,7 +108,14 @@ def recursive_function(x):
 num = 4
 print(recursive_function(num))
 
-
+# 6.nested function()
+def outer_function(text):
+    text = text
+    def inner_function():
+        print(text)
+    inner_function()
+if __name__ == "__main__":
+    outer_function("Hey !")
 
 
 
