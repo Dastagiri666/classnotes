@@ -36,3 +36,30 @@ e.Joindate = "AUG-2023"
 print("Outside the class instance using  orv : ",e.phonenumber)
 print("Outside the class static classname    : ",Employee.company)
 print("Outside the class static using  ORV   : ",e.Joindate)
+
+#
+# NS 160 
+
+class bike:
+    def __init__(self):
+        self.name = "ns160"
+        print(self.name)
+    def m1(self):
+        self.gears = "5"
+        print(self.gears)
+E = bike()
+E.speed = "120"
+E.m1() 
+print(E.speed)
+
+
+
+
+
+
+
+
+
+
+
+
