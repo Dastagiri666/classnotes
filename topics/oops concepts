@@ -212,7 +212,7 @@ and some specific characteristics.
 #EXample of single 
 class parent:
     def __init__(self):
-        self.name = "vamsi"
+        self.name = "giri"
         print(self.name)
     def m1(self):
         print("parent inhretance")
